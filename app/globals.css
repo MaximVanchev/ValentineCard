@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Valentine Card Custom Styles */
+.yes-btn {
+  box-shadow: 0 4px 24px 0 #f472b6aa;
+  font-family: inherit;
+}
+.no-btn {
+  cursor: pointer;
+  font-family: inherit;
+  transition: left 0.2s, top 0.2s;
+}
+
+.confetti {
+  z-index: 100;
+}
+.heart {
+  z-index: 101;
+  text-shadow: 0 2px 8px #f472b6aa;
+}
+
+.valentine-bg {
+  background: linear-gradient(135deg, #fbc2eb 0%, #f9a8d4 100%);
+}
